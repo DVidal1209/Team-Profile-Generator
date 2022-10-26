@@ -12,6 +12,16 @@ describe("Intern", () => {
         });
     });
 
+    describe("School Return", () => {
+        it("Should return the Intern's school when the getSchool() function is called", () => {
+            const intern = new Intern("James", "102AC", "james@test.com", "Test School");
+
+            school = intern.getSchool();
+
+            expect(school).toEqual("Test School")
+        })
+    })
+
     describe("HTML Append", () => {
         it("should append data created from the class to already existing variable", () =>{
             const intern = new Intern("James", "102AC", "james@test.com", "Test School");

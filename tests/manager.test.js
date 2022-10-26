@@ -12,6 +12,16 @@ describe("Manager", () => {
         });
     });
 
+    describe("Office Number Return", () => {
+        it("should return the office number for the manage when the getOffice() function is called", () => {
+            const manager = new Manager("Steve", "100BB", "steve@test.com", "12");
+
+            office = manager.getOffice();
+
+            expect(office).toEqual("12")
+        })
+    })
+
     describe("HTML Append", () => {
         it("should append data created from the class to already existing variable", () =>{
             const manager = new Manager("Steve", "100BB", "steve@test.com", "12");
