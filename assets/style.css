@@ -1,7 +1,7 @@
+/* Styling for Jumbotron */
 .jumbotron{
     background-color: red;
 }
-
 
 .jumbotron h1{
     font-size: 250%;
@@ -10,11 +10,14 @@
     color: white;
 }
 
+/* Styling for Cards */
+
 .card{
     border-radius: 5px;
     background-color: lightslategray;
     margin: auto;
     margin-bottom: 10px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .card-header{
