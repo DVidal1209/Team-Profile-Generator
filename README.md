@@ -3,7 +3,7 @@
 ## Description
 This is an Command Line application to allow users to create a summary Team Profile.
 
-Link to video on how to use: [Video Link]()
+Link to video on how to use: [Video Link](https://drive.google.com/file/d/1I-KyCkkpXs6ZIhMRFTb6KIoDd5s_u5Vz/view)
 
 ## Screenshots
 ![Team Profile Generator Screenshot 1](./assets/Images/team-profile-generator-1.jpg)
